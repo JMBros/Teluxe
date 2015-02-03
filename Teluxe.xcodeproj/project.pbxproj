@@ -14,6 +14,12 @@
 		C05CE2931A39487800C13601 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05CE2921A39487800C13601 /* Images.xcassets */; };
 		C05CE2961A39487800C13601 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05CE2941A39487800C13601 /* LaunchScreen.xib */; };
 		C05CE2A21A39487800C13601 /* TeluxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CE2A11A39487800C13601 /* TeluxeTests.m */; };
+		C05CE2AD1A39492200C13601 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CE2AC1A39492200C13601 /* Model.m */; };
+		C05CE2B01A3949AE00C13601 /* bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = C05CE2AF1A3949AE00C13601 /* bulb.png */; };
+		C05CE2B31A3949E700C13601 /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CE2B21A3949E700C13601 /* LaunchViewController.m */; };
+		C05CE2B61A394A0E00C13601 /* QuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CE2B51A394A0E00C13601 /* QuestionsViewController.m */; };
+		C05CE2B91A394A4C00C13601 /* TestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CE2B81A394A4C00C13601 /* TestingViewController.m */; };
+		C05CE2BC1A394A7200C13601 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05CE2BB1A394A7200C13601 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,17 @@
 		C05CE29B1A39487800C13601 /* TeluxeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeluxeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05CE2A01A39487800C13601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05CE2A11A39487800C13601 /* TeluxeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeluxeTests.m; sourceTree = "<group>"; };
+		C05CE2AB1A39492200C13601 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C05CE2AC1A39492200C13601 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C05CE2AF1A3949AE00C13601 /* bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulb.png; sourceTree = "<group>"; };
+		C05CE2B11A3949E700C13601 /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		C05CE2B21A3949E700C13601 /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		C05CE2B41A394A0E00C13601 /* QuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsViewController.h; sourceTree = "<group>"; };
+		C05CE2B51A394A0E00C13601 /* QuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsViewController.m; sourceTree = "<group>"; };
+		C05CE2B71A394A4C00C13601 /* TestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingViewController.h; sourceTree = "<group>"; };
+		C05CE2B81A394A4C00C13601 /* TestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingViewController.m; sourceTree = "<group>"; };
+		C05CE2BA1A394A7200C13601 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		C05CE2BB1A394A7200C13601 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +100,12 @@
 			children = (
 				C05CE2891A39487800C13601 /* AppDelegate.h */,
 				C05CE28A1A39487800C13601 /* AppDelegate.m */,
+				C05CE2AB1A39492200C13601 /* Model.h */,
+				C05CE2AC1A39492200C13601 /* Model.m */,
 				C05CE28C1A39487800C13601 /* ViewController.h */,
 				C05CE28D1A39487800C13601 /* ViewController.m */,
 				C05CE28F1A39487800C13601 /* Main.storyboard */,
+				C05CE2AE1A39498D00C13601 /* ContentViewControllers */,
 				C05CE2921A39487800C13601 /* Images.xcassets */,
 				C05CE2941A39487800C13601 /* LaunchScreen.xib */,
 				C05CE2851A39487800C13601 /* Supporting Files */,
@@ -96,6 +116,7 @@
 		C05CE2851A39487800C13601 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C05CE2AF1A3949AE00C13601 /* bulb.png */,
 				C05CE2861A39487800C13601 /* Info.plist */,
 				C05CE2871A39487800C13601 /* main.m */,
 			);
@@ -117,6 +138,21 @@
 				C05CE2A01A39487800C13601 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C05CE2AE1A39498D00C13601 /* ContentViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C05CE2B11A3949E700C13601 /* LaunchViewController.h */,
+				C05CE2B21A3949E700C13601 /* LaunchViewController.m */,
+				C05CE2B41A394A0E00C13601 /* QuestionsViewController.h */,
+				C05CE2B51A394A0E00C13601 /* QuestionsViewController.m */,
+				C05CE2B71A394A4C00C13601 /* TestingViewController.h */,
+				C05CE2B81A394A4C00C13601 /* TestingViewController.m */,
+				C05CE2BA1A394A7200C13601 /* ResultsViewController.h */,
+				C05CE2BB1A394A7200C13601 /* ResultsViewController.m */,
+			);
+			name = ContentViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05CE2B01A3949AE00C13601 /* bulb.png in Resources */,
 				C05CE2911A39487800C13601 /* Main.storyboard in Resources */,
 				C05CE2961A39487800C13601 /* LaunchScreen.xib in Resources */,
 				C05CE2931A39487800C13601 /* Images.xcassets in Resources */,
@@ -219,9 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05CE2B61A394A0E00C13601 /* QuestionsViewController.m in Sources */,
 				C05CE28E1A39487800C13601 /* ViewController.m in Sources */,
 				C05CE28B1A39487800C13601 /* AppDelegate.m in Sources */,
+				C05CE2BC1A394A7200C13601 /* ResultsViewController.m in Sources */,
 				C05CE2881A39487800C13601 /* main.m in Sources */,
+				C05CE2B31A3949E700C13601 /* LaunchViewController.m in Sources */,
+				C05CE2B91A394A4C00C13601 /* TestingViewController.m in Sources */,
+				C05CE2AD1A39492200C13601 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +385,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Teluxe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8becf744-7d18-47ef-af24-9fef2aa24049";
 			};
 			name = Debug;
 		};
@@ -353,9 +397,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Teluxe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8becf744-7d18-47ef-af24-9fef2aa24049";
 			};
 			name = Release;
 		};
@@ -412,6 +458,7 @@
 				C05CE2A71A39487800C13601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C05CE2A81A39487800C13601 /* Build configuration list for PBXNativeTarget "TeluxeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +467,7 @@
 				C05CE2AA1A39487800C13601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
